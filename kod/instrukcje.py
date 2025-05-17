@@ -103,8 +103,6 @@ def utwórz_główną_instrukcję(zmienne: KuferekZmiennych):
                 wynik = wartość_1 / wartość_2
             elif czynność.startswith('r'):
                 wynik = wartość_1 // wartość_2
-            elif czynność.startswith('o'):
-                wynik = wartość_1 // wartość_2
             elif czynność.startswith('s'):
                 wynik = wartość_1 ** wartość_2
             zmienne.włóż(nazwa, wynik, czynność)
@@ -121,7 +119,6 @@ def utwórz_główną_instrukcję(zmienne: KuferekZmiennych):
         cl('pomnożyło') | cl('pomnożyła') | cl('pomnożył') |
         cl('podzieliło') | cl('podzieliła') | cl('podzielił') |
         cl('rodzieliło') | cl('rozdzieliła') | cl('rozdzielił') |
-        cl('obcięło') | cl('obcięła') | cl('obciął') |
         cl('spotęgowało') | cl('spotęgowała') | cl('spotęgował')
     )
     wykonanie_działania = słowo + bz + operator + bz + słowo + bz + ii + bz + słowo
