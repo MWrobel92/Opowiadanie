@@ -1,5 +1,5 @@
-from wyliczanki import Rodzaj
-from bledy import BłądRodzaju, BłądBrakuOstatniej, BłądNazwy
+from .wyliczanki import Rodzaj
+from .bledy import BłądRodzaju, BłądBrakuOstatniej, BłądNazwy
 
 
 def określ_rodzaj(czasownik_wprowadzający: str) -> Rodzaj:

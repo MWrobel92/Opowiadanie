@@ -1,10 +1,10 @@
 from pyparsing import Word, Literal, CaselessLiteral as cl
 from copy import deepcopy
 
-from liczba import liczba, bz
-from zmienne import KuferekZmiennych
-from bledy import BłądDzienieniaPrzezZero, BłądTypu
-from wyliczanki import Warunek
+from .liczba import liczba, bz
+from .zmienne import KuferekZmiennych
+from .bledy import BłądDzienieniaPrzezZero, BłądTypu
+from .wyliczanki import Warunek
 
 
 ALFABET = 'AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻaąbcćdeęfghijklłmnńoópqrsśtuvwxyzźż'

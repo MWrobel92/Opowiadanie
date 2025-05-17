@@ -1,6 +1,6 @@
-from liczba import liczba
-from zmienne import KuferekZmiennych, BłądNazwy, BłądRodzaju
-from instrukcje import utwórz_główną_instrukcję
+from kod.liczba import liczba
+from kod.zmienne import KuferekZmiennych, BłądNazwy, BłądRodzaju
+from kod.instrukcje import utwórz_główną_instrukcję
 
 def test_liczby():
 	przykłady = [

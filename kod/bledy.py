@@ -1,4 +1,4 @@
-from wyliczanki import Rodzaj
+from .wyliczanki import Rodzaj
 
 
 class BłądObsłużony(Exception):
