@@ -26,16 +26,16 @@ Przykładowe polecenia:
 ## Informacje ogólne
 
 Instrukcje zapisane są w formie zdań zakończonych kropką lub wykrzyknikiem. Większość instrukcji
-zapisywanych jest w postaci podmiot-orzeczenie-dopełnienie. Podmiotem jest zmienna, której chcemy
+zapisywanych jest w szyku podmiot-orzeczenie-dopełnienie. Podmiotem jest zmienna, której chcemy
 przypisać wartość. Orzeczenie określa operację, którą chcemy wykonać. Poprzez dopełnienie
 przekazujemy zmienne, na których chcemy wykonać daną operację.
 
-Kod jest podzielony na funkcje. Deklaracja funkcji zacyna się od jej nazwy, którą podajemy poprzez
-wpisanie pojedynczego słowa w osobym wierszu. Jeśli plik nie zawiera żadnej nazwy funkcji, cały kod
-traktowany jest jako jedna funkcja. Ostatnia funkcja w pliku jest główną funkcją programu.
+Kod jest podzielony na funkcje. Deklaracja funkcji zaczyna się od jej nazwy, którą podajemy poprzez
+wpisanie pojedynczego słowa w osobnym wierszu. Jeśli plik nie zawiera żadnej nazwy funkcji, cały
+kod traktowany jest jako jedna funkcja. Ostatnia funkcja w pliku jest główną funkcją programu.
 W obrębie funkcji kod możemy podzielić na akapity za pomocą pustego wiersza.
 
-Charakterystyczną cechą języka opowiadanie jest to, że zmienne mazją swój rodzaj gramatyczny. Jest
+Charakterystyczną cechą języka opowiadanie jest to, że zmienne mają swój rodzaj gramatyczny. Jest
 od ustalany przy pierwszym przypisaniu wartości do zmiennej i wynika z rodzaju gramatycznego
 czasownika użytego jako orzeczenie. Jest on niezmienny, zastosowanie błędnego rodzaju w dalszej
 części kodu skutkuje błędem programu.
@@ -49,13 +49,14 @@ Jeśli zamiast podmiotu użyjemy słowa `następnie`, `potem` lub `ponadto`, pod
 użyta zmienna. Jeśli w charakterze dopełnienia użyjemy słowa `siebie`, dopełnieniem będzie ta sama
 zmienna, która jest podmiotem.
 
-Przykłady prawidłowych plików z kodem źródłowym znajdują się w folderze *przyklady*.
+Przykłady prawidłowych plików z kodem źródłowym znajdują się w folderze *przyklady*. Plik
+*witaj.opo* to typowy *Hello world*, tylko po polsku.
 
 ## Instrukcje
 
 W tym rozdziale znajduje się dokumentacja dopuszczalnych instrukcji. Dla każdej z nich w pierwszej
 linii podajemy ogólną składnię, a w drugiej działający przykład. W ogólnej składni ukośnikami
-rozdzialamy kolejno formy dla rodzaju męskiego, żeńskiego i nijakiego.
+rozdzielamy kolejno formy dla rodzaju męskiego, żeńskiego i nijakiego.
 
 ### Przypisanie zmiennej liczbowej
 
@@ -81,7 +82,7 @@ napisu.
 
 ### Przypisanie kolekcji
 
-Kolekcję dwuelemnentową tworzymy podając nazwy dwóch zmiennych, których wartości mają trafić do
+Kolekcję dwuelementową tworzymy podając nazwy dwóch zmiennych, których wartości mają trafić do
 nowej kolekcji. Kolekcja zawierająca dwa elementy z końca zdania zostanie przypisana do zmiennej z
 początku zdania.
 
@@ -126,7 +127,7 @@ Jeśli domyślna forma ostatnio użytej zmiennej nie jest satysfakcjonująca, mo
 
 ### Wykonywanie działań
 
-Podstawowe działania (dodawanie, odejmowanie itd.) wykonujemy podając na początku znadnia nazwę
+Podstawowe działania (dodawanie, odejmowanie itd.) wykonujemy podając na początku zdania nazwę
 zmiennej, do której chcemy zapisać wynik, a na końcu zdania nazwy dwóch zmiennych będących
 argumentami.
 
@@ -198,7 +199,7 @@ Instrukcja warunkowa:
 
 > `Hieronim sprawdził się.`
 
-Warunek pętli (działa jak pętla `while` w języku `Python`):
+Warunek pętli (działa jak pętla *while* w języku *Python*):
 
 > `<zmienna> przejął/przejęła/przejęło dowodzenie.`
 
